@@ -1,17 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Página Inicial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2rem;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header, main, footer {
+            max-width: 800px;
+            margin: auto;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 1rem;
+        }
+        nav a {
+            text-decoration: none;
+            color: #0077cc;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <p>Bem-vindo(a) ao Home</p>
-    <p>Essa é a página inicial do seu aplicativo.</p>
-    <p>Você pode adicionar mais conteúdo aqui conforme necessário.</p>
-    <p>Para voltar à lista, clique <a href="/lista">aqui</a>.</p>
-    <p>Para voltar à página inicial, clique <a href="/">aqui</a>.</p>
-    <p>Para voltar à página de contato, clique <a href="/contato">aqui</a>.</p>
-    <p>Para voltar à página de sobre, clique <a href="/sobre">aqui</a>.</p>
+    <header>
+        <h1>Bem-vindo(a) ao Home</h1>
+        <p>Essa é a página inicial do seu aplicativo.</p>
+    </header>
+
+    <main>
+        <p>Você pode adicionar mais conteúdo aqui conforme necessário.</p>
+    </main>
+
+    <nav>
+        <ul>
+            <li><a href="/lista">Lista</a></li>
+            <li><a href="/">Página Inicial</a></li>
+            <li><a href="/contato">Contato</a></li>
+            <li><a href="/sobre">Sobre</a></li>
+        </ul>
+    </nav>
+
+    <footer>
+        <p>&copy; 2025 - Seu Aplicativo</p>
+    </footer>
 </body>
 </html>

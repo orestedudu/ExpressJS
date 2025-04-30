@@ -1,17 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Página de Contato</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 2rem;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header, main, footer {
+            max-width: 800px;
+            margin: auto;
+        }
+        nav a {
+            display: inline-block;
+            margin: 0.5rem 0;
+            color: #0066cc;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <p>Bem-vindo(a) ao Contato</p>
-    <p>Essa é a página de contato do seu aplicativo.</p>
-    <p>Você pode adicionar mais conteúdo aqui conforme necessário.</p>
-    <p>Para voltar à lista, clique <a href="/lista">aqui</a>.</p>
-    <p>Para voltar à página inicial, clique <a href="/">aqui</a>.</p>
-    <p>Para voltar à página de contato, clique <a href="/contato">aqui</a>.</p>
-    <p>Para voltar à página de sobre, clique <a href="/sobre">aqui</a>.</p>
+    <header>
+        <h1>Bem-vindo(a) ao Contato</h1>
+    </header>
+
+    <main>
+        <p>Essa é a página de contato do seu aplicativo.</p>
+        <p>Você pode adicionar mais conteúdo aqui conforme necessário.</p>
+    </main>
+
+    <footer>
+        <nav>
+            <p><a href="/lista">Voltar à lista</a></p>
+            <p><a href="/">Voltar à página inicial</a></p>
+            <p><a href="/contato">Voltar à página de contato</a></p>
+            <p><a href="/sobre">Voltar à página de sobre</a></p>
+        </nav>
+    </footer>
 </body>
 </html>
